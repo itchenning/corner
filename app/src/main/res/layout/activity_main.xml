@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <com.itchenning.corner.widget.viewgroup.CConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                app:corner_bg_color="#CBF"
+                app:corner_radius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ConstraintLayout"
+                    android:textColor="#00BBFF"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </com.itchenning.corner.widget.viewgroup.CConstraintLayout>
+
+            <com.itchenning.corner.widget.viewgroup.CLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                app:corner_end_color="#CBF"
+                app:corner_left_top_radius="50dp"
+                app:corner_start_color="#FBC">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="LinearLayout"
+                    android:textColor="#00BBFF" />
+
+            </com.itchenning.corner.widget.viewgroup.CLinearLayout>
+
+            <com.itchenning.corner.widget.viewgroup.CFrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                app:corner_bg_color="#FBC"
+                app:corner_left_top_radius="50dp"
+                app:corner_right_bottom_radius="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="FrameLayout"
+                    android:textColor="#00BBFF" />
+
+            </com.itchenning.corner.widget.viewgroup.CFrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <com.itchenning.corner.widget.viewgroup.CRelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="16dp"
+                app:corner_bg_color="#CBF"
+                app:corner_radius="80dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="RelativeLayout"
+                    android:textColor="#00BBFF"
+                    android:textSize="10dp" />
+
+            </com.itchenning.corner.widget.viewgroup.CRelativeLayout>
+
+            <com.itchenning.corner.widget.viewgroup.CRecyclerView
+                android:id="@+id/listView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                app:corner_end_color="#CBF"
+                app:corner_left_bottom_radius="10dp"
+                app:corner_right_top_radius="10dp"
+                app:corner_start_color="#FBC" />
+
+        </LinearLayout>
+
+        <com.itchenning.corner.widget.viewgroup.CScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:corner_end_color="#CBF"
+            app:corner_right_bottom_radius="10dp"
+            app:corner_right_top_radius="10dp"
+            app:corner_start_color="#FBC">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ScrollView 10" />
+            </LinearLayout>
+
+        </com.itchenning.corner.widget.viewgroup.CScrollView>
+
+        <com.itchenning.corner.widget.viewgroup.CTableLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            app:corner_end_color="#CBF"
+            app:corner_left_top_radius="100dp"
+            app:corner_right_bottom_radius="100dp"
+            app:corner_right_top_radius="100dp"
+            app:corner_start_color="#FBC">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell4" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell5" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell6" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell7" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell8" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cell9" />
+            </TableRow>
+
+        </com.itchenning.corner.widget.viewgroup.CTableLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <com.itchenning.corner.widget.view.CImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/snow_mountain"
+                    app:corner_radius="15dp" />
+
+                <com.itchenning.corner.widget.view.CImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/snow_mountain"
+                    app:corner_radius="100dp" />
+
+                <com.itchenning.corner.widget.view.CImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/snow_mountain"
+                    app:corner_left_top_radius="100dp"
+                    app:corner_right_bottom_radius="100dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:rotation="90"
+                android:text="ImageView"
+                android:textColor="#00BBFF"
+                android:textSize="20dp"
+                android:translationX="10dp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="16dp">
+
+            <com.itchenning.corner.widget.view.CTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#00BBFF"
+                android:textSize="18dp"
+                app:corner_end_color="#CBF"
+                app:corner_left_top_radius="30dp"
+                app:corner_right_bottom_radius="30dp"
+                app:corner_start_color="#FBC" />
+
+            <com.itchenning.corner.widget.view.CEditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="EditText"
+                android:textColor="#00BBFF"
+                android:textSize="18dp"
+                app:corner_end_color="#CBF"
+                app:corner_left_bottom_radius="50dp"
+                app:corner_right_bottom_radius="50dp"
+                app:corner_start_color="#FBC" />
+
+            <com.itchenning.corner.widget.view.CButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="Button"
+                android:textColor="#00BBFF"
+                android:textSize="18dp"
+                app:corner_end_color="#CBF"
+                app:corner_left_bottom_radius="100dp"
+                app:corner_right_top_radius="50dp"
+                app:corner_start_color="#FBC" />
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.itchenning.corner.widget.view.CView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    app:corner_end_color="#CBF"
+                    app:corner_left_top_radius="50dp"
+                    app:corner_right_top_radius="50dp"
+                    app:corner_start_color="#FBC" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="View"
+                    android:textColor="#00BBFF"
+                    android:textSize="18dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

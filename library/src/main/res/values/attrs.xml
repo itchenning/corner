@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="corner">
+        <attr name="corner_bg_color" format="color" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_left_top_radius" format="dimension" />
+        <attr name="corner_left_bottom_radius" format="dimension" />
+        <attr name="corner_right_top_radius" format="dimension" />
+        <attr name="corner_right_bottom_radius" format="dimension" />
+        <attr name="corner_start_color" format="color" />
+        <attr name="corner_end_color" format="color" />
+        <attr name="corner_gradient_direction">
+            <enum name="horizontal" value="0" />
+            <enum name="diagonal" value="1" />
+            <enum name="vertical" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
