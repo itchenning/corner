@@ -11,21 +11,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.itchenning.corner.widget.viewgroup.CFrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="16dp"
-            android:layout_weight="1"
-            app:corner_bg_color="#CCBBFF"
-            app:corner_end_color="#CCF"
-            app:corner_gradient_direction="horizontal"
-            app:corner_left_bottom_radius="10dp"
-            app:corner_left_top_radius="10dp"
-            app:corner_radius="10dp"
-            app:corner_right_bottom_radius="10dp"
-            app:corner_right_top_radius="10dp"
-            app:corner_start_color="#FFC" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
