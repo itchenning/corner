@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/itchenning/corner.svg)](https://jitpack.io/#itchenning/corner)
 # corner
-## 一款圆角渐变效果的控件库，支持各种常用组件
+## 一款圆角渐变效果的控件库，支持各种常用控件
 ![](shots/shot1.png)
 
 ## 支持的ViewGoup
