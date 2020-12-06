@@ -1,6 +1,6 @@
-[![](https://jitpack.io/v/itchenning/corner.svg)](https://jitpack.io/#itchenning/corner)
 # corner
 ## 一款圆角渐变效果的控件库，支持各种常用控件
+[![](https://jitpack.io/v/itchenning/corner.svg)](https://jitpack.io/#itchenning/corner)
 ![](shots/shot1.png)
 
 ## 支持的ViewGoup
@@ -40,16 +40,15 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="100dp"
 	        android:layout_margin="16dp"
-	        android:layout_weight="1"
 	        app:corner_bg_color="#CCBBFF"
-	        app:corner_end_color="#CCF"
+	        app:corner_end_color="#CCCCFF"
 	        app:corner_gradient_direction="horizontal"
 	        app:corner_left_bottom_radius="10dp"
 	        app:corner_left_top_radius="10dp"
 	        app:corner_radius="10dp"
 	        app:corner_right_bottom_radius="10dp"
 	        app:corner_right_top_radius="10dp"
-	        app:corner_start_color="#FFC" />
+	        app:corner_start_color="#FFFFCC" />
 
 
 
