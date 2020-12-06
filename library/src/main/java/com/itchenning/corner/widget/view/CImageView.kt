@@ -41,9 +41,4 @@ class CImageView : AppCompatImageView , IViewCorner {
     override fun getView() : View {
         return this
     }
-
-    override fun onSizeChanged(w : Int , h : Int , oldw : Int , oldh : Int) {
-        super.onSizeChanged(w , h , oldw , oldh)
-        Log.i("hahaha" , "onSizeChanged") //TODO
-    }
 }
