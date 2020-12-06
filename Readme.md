@@ -4,20 +4,20 @@
 ![](shots/shot1.png)
 
 ## 支持的ViewGoup
-- ConstraintLayout
-- LinearLayout
-- FrameLayout
-- RelativeLayout
-- RecyclerView
-- ScrollView
-- TableLayout
+- ConstraintLayout -> CConstraintLayout
+- LinearLayout -> CLinearLayout
+- FrameLayout -> CFrameLayout
+- RelativeLayout -> CRelativeLayout
+- RecyclerView ->CRecyclerView
+- ScrollView -> CScrollView
+- TableLayout -> CTableLayout
 
 ## 支持的View
-- TextView
-- ImageView
-- EditText
-- Button
-- View
+- TextView -> CTextView
+- ImageView -> CImageView
+- EditText -> CEditText
+- Button -> CButton
+- View -> CView
 
 ## 用法
 ### Step 1. Add the JitPack repository to your build file
